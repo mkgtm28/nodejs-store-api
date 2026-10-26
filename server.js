@@ -42,7 +42,7 @@ app.use("/api/products", productRoutes);
 
 // Normal pages
 app.get("/", (req, res) => {
-  res.send("Welcome to my Express server!");
+  res.send("Welcome to my Express server!, We will make it easy to understand.");
 });
 
 // Test error route
